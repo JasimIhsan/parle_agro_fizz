@@ -1,0 +1,212 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.header{
+    background-color: #0a0b27;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    z-index: 2;
+}
+
+.navbar{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logo-container{
+    float: left;
+}
+
+#parle-logo{
+    padding-top: 25px;
+    float: left;
+    width: 119px;
+    padding-left: 5px;
+}
+
+.links{
+    float: right;
+    height: 70px;
+    width: 65%;
+}
+
+.nav-links{
+    float: left;
+    display: flex;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.nav-links li a {
+    font-family: Helvetica;
+    font-size: 16px;
+    letter-spacing: 2px;
+    color: #fff;
+    padding-top: 25px;
+    padding-left: 35px;
+    text-align: center;
+    float: right;
+    text-decoration: none;
+    transition: all .5s ease-in;
+}
+
+.nav-links li a:hover{
+    color: #e53f27;
+}
+
+.actress{
+    width: 100%;
+    height: auto;
+}
+
+.container-2{
+    width: 100%;
+}
+
+.black{
+    background-color: black;
+    height: 866px;
+    width: 50%;
+    margin: 0%;
+    float: left;
+    margin-top: -4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.black img{
+    transform: rotate(90deg);
+    width: 161px;
+    height: auto;
+}
+.new-appy {
+    height: 300px;
+    width: 100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.black p{
+    position: absolute;
+    z-index: 2;
+    font-size: 80px;
+    color: white;
+    font-weight: 800;
+    font-family: "EksellDisplayWeb-Small";
+    text-align: center;
+    font-family: 'Font';
+}
+
+.about-fizz-container{
+    width: 50%;
+    height: 866px;
+    background-color: #fff;
+    display: inline-block;
+    margin-top: -4px;
+    align-items: center;
+}
+
+.about-fizz{
+    text-align: left;
+    margin: 120px;
+}
+
+.about-fizz-content{
+    font-family: helvetica;
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.about-fizz-content a{
+    text-decoration: none;
+}
+
+.bottles{
+    width: 100%;
+    height: auto;
+}
+
+.footer-container{
+   
+    width: 100%;
+    height: 1;
+    display: flex;
+}
+
+.brand{
+    width: 33.33%;
+    margin: 60px;
+    padding-left: 50px;
+}
+
+.brand-content{
+    font-size: 14px;
+    font-family: helvetica;
+    padding-bottom: 10px;
+    line-height: 1.3;
+}
+
+.help-desk{
+    width: 35.33%;
+    margin: 60px;    
+}
+
+.help-desk-content{
+    font-size: 13px;
+    font-family: helvetica;
+    padding-bottom: 10px;
+}
+
+.help-desk-content a{
+    text-decoration: none;
+    color: black;
+}
+
+.help-desk-content a:hover{
+    text-decoration: underline;
+    color: red;
+}
+
+.social{
+    width: 33.33%;
+    margin: 60px;
+}
+
+.social a{
+    text-decoration: none;
+    color: black;
+}
+
+.social a:hover{
+    color: #e53f27;
+}
+
+.social-icon{
+    text-decoration: none;
+}
+
+.social-icon:hover{
+    color: #e53f27;
+}
+
+.social-icon img{
+    width: 25px;
+}
+
+.social-content{
+    font-size: 14px;
+    font-family: helvetica;
+    padding-bottom: 10px;
+    line-height: 1.3;
+
+}
